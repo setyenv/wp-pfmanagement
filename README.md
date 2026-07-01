@@ -14,4 +14,4 @@ Available for evaluation, purchase and licensing at **[project-flash.com](https:
 
 ---
 
-© 2026 Project Flash Build. Project Flash™, WP-PFWorkflow™, WP-PFManagement™ and WP-PFAgent™ are trademarks of Project Flash Build.
+Project Flash™, WP-PFWorkflow™, WP-PFManagement™ and WP-PFAgent™ are trademarks of Project Flash.
