@@ -22,7 +22,7 @@
 
 It is one of the four pieces of the [Setyenv™](https://setyenv.com) suite. Its event catalog is consumed natively by the WP-PFWorkflow™ engine, and the WP-PFAgent™ AI agent can design an entity, generate its form and wire its automations from a one-line description — so data, automation and AI work together.
 
-> This repository is a **public landing page** for the product. It contains no plugin code — WP-PFManagement is a proprietary, per-domain-licensed plugin, available at **[setyenv.com](https://setyenv.com)**.
+> This repository is a **public landing page** for the product. It contains no plugin code — WP-PFManagement is downloaded from **[setyenv.com](https://setyenv.com)**, free in its Community Edition and licensed per domain in its Enterprise Edition, or run from the [Docker image](https://hub.docker.com/r/setyenv/setyenv).
 
 <p align="center">
   <img src="assets/screens/entity.png" alt="A WP-PFManagement entity list with per-entity layout and sidebar of apps and modules" width="880" />
