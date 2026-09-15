@@ -93,9 +93,25 @@ Because the primitives are generic, you assemble complete apps inside WordPress 
 
 You **define** data and processes here, **automate** them in WP-PFWorkflow, reach your **own machine** through wp-executor, and drive all of it in **plain language** with WP-PFAgent. See a worked example at [setyenv.com/use-case](https://setyenv.com/use-case).
 
-## Get it
+## Get it — Community or Enterprise
 
-WP-PFManagement is a **proprietary, per-domain-licensed WordPress plugin**. The standard build ships obfuscated and is **refundable** — so the purchase is the trial; an optional annual add-on delivers the clean PHP source. Evaluate, buy and license it at **[setyenv.com](https://setyenv.com)**.
+WP-PFManagement ships in **two editions of the same code**:
+
+- **Community Edition** — free for personal and non-commercial use. Every feature, no licence key: register at [setyenv.com](https://setyenv.com), download, install.
+- **Enterprise Edition** — for commercial use, as a monthly or annual subscription licensed per domain. **One key**, entered once in either WP-PFManagement or WP-PFWorkflow, licenses both on that site. An optional annual add-on delivers the readable PHP source (the standard build ships obfuscated).
+
+Nothing is ever locked or paused: a site without a key *is* a Community Edition site, and the edition shows under *Setyenv → License*. Details, activation and what happens when a subscription ends: [Community & Enterprise](https://setyenv.com/docs/editions/).
+
+## Docker
+
+The whole suite is published as a Docker image, **[`setyenv/setyenv`](https://hub.docker.com/r/setyenv/setyenv)**: WordPress with WP-PFManagement, WP-PFWorkflow and WP-PFAgent installed and activated.
+
+```bash
+docker run -d -p 8080:80 --name setyenv setyenv/setyenv
+# then open http://localhost:8080 and complete the WordPress install
+```
+
+It runs on its own — with no external database given, the container starts an embedded MariaDB — or with your own database through the usual `WORDPRESS_DB_*` variables. It starts as the Community Edition and switches to Enterprise the moment a key is provided. Guide: [Deploying with Docker](https://setyenv.com/docs/deploy-docker/).
 
 ---
 
